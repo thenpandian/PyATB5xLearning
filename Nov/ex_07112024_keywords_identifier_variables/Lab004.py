@@ -1,7 +1,3 @@
-import keyword
-
-print(keyword.kwlist)
-
-
-result=(3,4)
-print(max(result))
+age=65
+age=90
+print(age)

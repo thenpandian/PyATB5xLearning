@@ -1,0 +1,2 @@
+long_name_is_created_value ="Hello"
+print(long_name_is_created_value)
