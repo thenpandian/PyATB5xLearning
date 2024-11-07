@@ -5,9 +5,9 @@ print("Thenpandian Palanisamy")
 # *args - unlimited number of comma seperated arguments
 # print("Thenpandian Palanisamy",123,"Muruga","Shiva") # IndentationError: unexpected indent
 
-     print("Thenpandian Palanisamy",123,"Muruga","Shiva")
+print("Thenpandian Palanisamy", 123, "Muruga", "Shiva")
 
+print("Thenpandian Palanisamy", 123, "Muruga", "Shiva",sep='*')
 
-
-
+print("Thenpandian Palanisamy", 123, "Muruga", "Shiva",sep='_',end='^^')
 
