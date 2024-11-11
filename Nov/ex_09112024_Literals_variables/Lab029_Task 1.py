@@ -10,7 +10,7 @@ sub = num1 - num2 - num3
 mul = num1 * num2 * num3
 div = num1 / num2 / num3
 
-print (" Sum is ",sum)
-print (" Sub is ",sub)
-print (" Mul is ",mul)
-print (" Div is ",div)
+print (" Sum is ",float(sum))
+print (" Sub is ",float(sub))
+print (" Mul is ",float(mul))
+print (" Div is ",float(div))

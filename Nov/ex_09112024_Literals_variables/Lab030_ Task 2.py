@@ -1,8 +1,8 @@
 # Take a 2 input from the user
 # Print the Quotient and Remainder
 
-num1= int(input("Enter the num1 : "))
-num2= int(input("Enter the num2 : "))
+num1= float(input("Enter the num1 : "))
+num2= float(input("Enter the num2 : "))
 
 Divison = num1 / num2
 Quotient = num1 // num2
