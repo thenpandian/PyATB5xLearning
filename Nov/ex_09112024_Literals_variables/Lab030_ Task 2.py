@@ -11,3 +11,12 @@ Reminder = num1%num2
 print("Division is ",Divison)
 print("Quotient is ",Quotient)
 print("Reminder is : ",Reminder)
+
+
+print("----------------------")
+
+# formatting
+print(f"Quotient:{Quotient}" )
+print(f"Reminder: {Reminder}")
+
+#divmod() can also be used
