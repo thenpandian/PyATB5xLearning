@@ -1,12 +1,21 @@
 # Problem to find the max between (3,4)- 4 without using the max function
 
+# Logic Building formula
+
+#  Step 1
+# user inputs -> two integers
+# output --> int 1  which ever is greater max number it will  return
+
+
+
+
 
 a= int(input("Enter the value 1 : "))
 b= int(input("Enter the value 2 : "))
 
 if a> b :
     print("A is max value")
-else :
+else :x
     print("B is max value")
 
 print('--------------')
