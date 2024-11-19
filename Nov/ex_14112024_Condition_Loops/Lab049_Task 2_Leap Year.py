@@ -12,10 +12,12 @@
 year= int(input("Enter the Year : \n"))
 
 # Step 2 Rough Logic
-# year % 4 ==0
-# Year
+# year % 4 ==0 and year % 100 !=0
+#  year % 400==0
 
-if year % 4 ==0 :
+if year % 4 ==0 and year % 100 !=0:
     print("It's a Leap Year")
+elif year % 400==0 :
+    print("A Leap Year")
 else:
     print("It is not Leap Year")
