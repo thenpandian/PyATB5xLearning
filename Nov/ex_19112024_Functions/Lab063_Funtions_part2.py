@@ -1,9 +1,11 @@
-def sum_of_three(a=100, b=200, c=300):
-    return a + b + c
 
-num1 = int(input("enter the num1:\n"))
-num2 = int(input("enter the num1:\n"))
-num3 = int(input("enter the num1:\n"))
+# part 1
+def greet():
+    print("Hell,Welcome to Python world")
+    print("2")
+    print("3")
+#
+# part 2
 
-result = sum_of_three(num1, num2, num3)
-print(result)
+greet()
+greet()
