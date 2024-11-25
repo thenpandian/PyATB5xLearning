@@ -7,11 +7,13 @@ def outer_function():
         var2 = 20
         print(var1)
 
-    def inner_function1():
-        print(var1)
+        def inner_function1():
+            print(var1)
+            print(var2)
 
+        inner_function1()
     inner_function()
-    inner_function1()
+
     # print(var2)
 
 outer_function()

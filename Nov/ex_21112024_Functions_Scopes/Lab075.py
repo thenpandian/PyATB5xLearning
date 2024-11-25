@@ -8,5 +8,6 @@ def my_function():
 
 
 # print(pb)  # Local variable can't called outside
-my_function()
+
 print(pb_a)
+my_function()
