@@ -12,7 +12,7 @@ class Dog:
         return f"{self.name} says Woof!"
 
 # Creating objects (instances) of the Dog class
-dog1 = Dog("Buddy", 3)
+dog1 = Dog("Buddy", 3)  # dog 1 object reference
 dog2 = Dog("Charlie", 5)
 
 # Accessing attributes and methods
