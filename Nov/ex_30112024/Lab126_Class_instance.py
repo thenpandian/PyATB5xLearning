@@ -10,9 +10,10 @@ class person:
 
     def walk(self):    # function with class is called as method
         return self.name
+        # print(f"walking {self.name}")
 
 
-naume1=person("Thenpandian")     # Creating two Objects
+name1=person("Thenpandian")     # Creating two Objects
 name2=person("Muruga")
 
 print(name1.name)
@@ -21,3 +22,6 @@ print(name2.name)
 
 print("who is walking",name1.walk())
 print("Who is walking ",name2.walk())
+
+
+

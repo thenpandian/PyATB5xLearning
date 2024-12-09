@@ -35,4 +35,4 @@ for i in my_list:   # range is not required , since range itself print it as lis
 # in list we
 print("------------------------------")
 for i in range(1,5):   # range  (start,
-    print(i, end="")
+    print(i, end="*")

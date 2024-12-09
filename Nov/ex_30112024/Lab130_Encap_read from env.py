@@ -1,6 +1,7 @@
 # Web Automation - Selenium
 # Page - You are going to automate
-
+from dotenv import load_dotenv
+import  os
 
 class VWOLoginPage:
 
@@ -15,8 +16,13 @@ class VWOLoginPage:
         else :
             print("Login Failed")
 
-email = input("Enter the email \n")
-password = input("Enter your Password \n")
+load_dotenv()
+email = os.getenv("EMAIL")  #Read from test data excel, csv or any file
+password = os.getenv("PASSWORD")#Read from test data excel or env file
+
+print(email,password)
+# email = input("Enter the email \n")
+# password = input("Enter your Password \n")
 
 
 vwo_obj = VWOLoginPage(email,password)
