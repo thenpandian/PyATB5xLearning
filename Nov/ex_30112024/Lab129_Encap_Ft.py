@@ -15,6 +15,9 @@ class VWOLoginPage:
         else :
             print("Login Failed")
 
+#email = Read from test data excel, csv or any file
+#password = Read from test data excel or env file
+
 email = input("Enter the email \n")
 password = input("Enter your Password \n")
 
